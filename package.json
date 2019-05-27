@@ -1,0 +1,29 @@
+{
+	"name": "@guivic/fastify-routes-loader",
+	"version": "0.0.1",
+	"description": "Fastify routes loader.",
+	"main": "index.js",
+	"repository": "git@github.com:guivic/fastify-socket.io.git",
+	"author": "lludol <ludovic.lerus@guivic.io>",
+	"license": "MIT",
+	"scripts": {
+		"test": "eslint . && tap test.js",
+		"coverage": "npm run test -- --coverage-report=lcov"
+	},
+	"keywords": [
+		"guivic",
+		"fastify",
+		"routes",
+		"loader"
+	],
+	"devDependencies": {
+		"@guivic/eslint-config-guivic": "^0.2.0",
+		"eslint": "^5.16.0",
+		"fastify": "^2.4.1",
+		"tap": "^14.1.11"
+	},
+	"dependencies": {
+		"fast-glob": "^2.2.7",
+		"fastify-plugin": "^1.6.0"
+	}
+}

@@ -23,7 +23,7 @@
 		"tap": "^14.1.11"
 	},
 	"dependencies": {
-		"fast-glob": "^2.2.7",
+		"fast-glob": "^3.2.2",
 		"fastify-plugin": "^1.6.0"
 	}
 }

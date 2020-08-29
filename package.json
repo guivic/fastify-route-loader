@@ -24,6 +24,6 @@
 	},
 	"dependencies": {
 		"fast-glob": "^2.2.7",
-		"fastify-plugin": "^1.6.0"
+		"fastify-plugin": "^2.3.3"
 	}
 }
